@@ -6,26 +6,3 @@
   display: block;
   width: 100%;
 }
-
-.fixed_on_top {
-  position: fixed;
-  top: 0;
-  width: 100%;
-
-  .top_navbar {
-    padding: 1em 2em;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: baseline;
-    justify-content: space-between;
-  }
-
-  .menu {
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 20px;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: $primary-text-color;
-  }
-}
