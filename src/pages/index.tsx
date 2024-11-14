@@ -44,8 +44,8 @@ export default function Home() {
               src="https://open.spotify.com/embed/track/5kOsais9l71Nl3FBn8t08H?utm_source=generator"
               width="100%"
               height="232"
-              frameBorder="0"
-              allowFullScreen="true"
+              //frameBorder="0"
+              allowFullScreen={true}
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
@@ -55,7 +55,41 @@ export default function Home() {
             <p>{SectionText[1]}</p>
           </div>
 
-          <img src=""></img>
+          <div style={{ width: "100%" }}>
+            <Image
+              src="/img/photo1.webp"
+              alt="Photo of the artist"
+              width={939}
+              height={507}
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </div>
+
+          <div>
+            <p>{SectionText[2]}</p>
+          </div>
+
+          <div>
+            <p>{SectionText[3]}</p>
+          </div>
+
+          <div style={{ width: "100%" }}>
+            <Image
+              src="/img/photo2.webp"
+              alt="Photo of the artist"
+              width={939}
+              height={1016}
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </div>
+
+          <div>
+            <p>{SectionText[4]}</p>
+          </div>
+
+          <div>
+            <p>{SectionText[5]}</p>
+          </div>
         </section>
       </main>
     </>
