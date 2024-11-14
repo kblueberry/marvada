@@ -44,7 +44,6 @@ export default function Home() {
               src="https://open.spotify.com/embed/track/5kOsais9l71Nl3FBn8t08H?utm_source=generator"
               width="100%"
               height="232"
-              //frameBorder="0"
               allowFullScreen={true}
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
@@ -95,6 +94,25 @@ export default function Home() {
             <p>{SectionText[5]}</p>
           </div>
         </section>
+
+        <div className={styles.music_announcements}>
+          <div className={styles.announcement}>
+            <img
+              src="/img/VarnaGL-announce-1.webp"
+              alt="Varna GL announce 1"
+            ></img>
+            <p>
+              Id feugiat suspendisse lacus facilisi eget nunc sit. Lectus vitae.
+            </p>
+          </div>
+          <div className={styles.announcement}>
+            <img
+              src="/img/VarnaGL-announce-2.webp"
+              alt="Varna GL announce 2"
+            ></img>
+            <p>Risus ullamcorper at eu dolor fermentum at. Id.</p>
+          </div>
+        </div>
       </main>
     </>
   );

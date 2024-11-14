@@ -36,3 +36,14 @@
   outline: none;
   color: red;
 }
+
+.music_announcements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.announcement {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 4em;
+}
