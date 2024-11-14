@@ -57,11 +57,15 @@ export default function Home() {
 
           <div style={{ width: "100%" }}>
             <Image
-              src="/img/photo1.webp"
+              src="/img/VarnaGL-play.jpeg"
               alt="Photo of the artist"
               width={939}
               height={507}
-              style={{ maxWidth: "100%", height: "auto" }}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                filter: "invert(1)",
+              }}
             />
           </div>
 
