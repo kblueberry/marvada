@@ -3,16 +3,19 @@
 .photo {
   width: 100%;
 
-  &.photo--invert:hover .photo__img {
+  .photo__img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &.photo--invert .photo__img:hover {
     filter: invert(1);
   }
 
-  &.photo--highghlight:hover .photo__img {
+  &.photo--highghlight .photo__img:hover {
+    //TODO correct style
     filter: invert(1);
   }
 }
 
-.photo__img {
-  max-width: 100%;
-  height: auto;
-}
+

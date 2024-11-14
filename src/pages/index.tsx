@@ -55,14 +55,12 @@ export default function Home() {
             <p>{SectionText[1]}</p>
           </div>
 
-          <div style={{ width: "100%" }}>
             <Photo
               src="/img/VarnaGL-play.jpeg"
               alt="Photo of the artist"
               width={939}
               height={507}
             />
-          </div>
 
           <div>
             <p>{SectionText[2]}</p>
@@ -72,15 +70,12 @@ export default function Home() {
             <p>{SectionText[3]}</p>
           </div>
 
-          <div style={{ width: "100%" }}>
-            <Image
+         <Photo
               src="/img/photo2.webp"
               alt="Photo of the artist"
               width={939}
               height={1016}
-              style={{ maxWidth: "100%", height: "auto" }}
             />
-          </div>
 
           <div>
             <p>{SectionText[4]}</p>
@@ -93,19 +88,23 @@ export default function Home() {
 
         <div className={styles.music_announcements}>
           <div className={styles.announcement}>
-            <img
+            <Photo
               src="/img/VarnaGL-announce-1.webp"
               alt="Varna GL announce 1"
-            ></img>
+              width={522}
+              height={694}
+            ></Photo>
             <p>
               Id feugiat suspendisse lacus facilisi eget nunc sit. Lectus vitae.
             </p>
           </div>
           <div className={styles.announcement}>
-            <img
+            <Photo
               src="/img/VarnaGL-announce-2.webp"
               alt="Varna GL announce 2"
-            ></img>
+              width={661}
+              height={530}
+            ></Photo>
             <p>Risus ullamcorper at eu dolor fermentum at. Id.</p>
           </div>
         </div>

@@ -18,7 +18,7 @@ export const Photo = ({
   height,
   effect = "invert",
 }: PhotoProps) => {
-  const photoClass = `${styles.photo} styles[photo--${effect}]`;
+  const photoClass = `${styles.photo} ${styles[`photo--${effect}`]}`;
 
   return (
     <div className={photoClass}>
