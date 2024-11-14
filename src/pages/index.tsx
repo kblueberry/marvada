@@ -1,5 +1,6 @@
 import { NavBar } from "@/components/navbar";
 import { Paragraph } from "@/components/paragraph";
+import { Photo } from "@/components/photo";
 import { SectionText } from "@/pages/sectionText";
 import styles from "@/styles/Home.module.scss";
 import Head from "next/head";
@@ -55,16 +56,11 @@ export default function Home() {
           </div>
 
           <div style={{ width: "100%" }}>
-            <Image
+            <Photo
               src="/img/VarnaGL-play.jpeg"
               alt="Photo of the artist"
               width={939}
               height={507}
-              style={{
-                maxWidth: "100%",
-                height: "auto",
-                filter: "invert(1)",
-              }}
             />
           </div>
 

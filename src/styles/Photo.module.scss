@@ -1,0 +1,18 @@
+@import "./global";
+
+.photo {
+  width: 100%;
+
+  &.photo--invert:hover .photo__img {
+    filter: invert(1);
+  }
+
+  &.photo--highghlight:hover .photo__img {
+    filter: invert(1);
+  }
+}
+
+.photo__img {
+  max-width: 100%;
+  height: auto;
+}
