@@ -1,4 +1,4 @@
-import styles from "../styles/Section.module.scss";
+import styles from "../styles/Home.module.scss";
 import Image from "next/image";
 
 export const NavBar = () => {

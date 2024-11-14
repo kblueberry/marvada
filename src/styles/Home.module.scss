@@ -1,14 +1,5 @@
 @import "./global";
 
-.main {
-  font-family: $font-family;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #f9f9f9;
-}
-
 .ctaButton {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -22,4 +13,26 @@
   &:hover {
     background-color: darken($secondary-color, 10%);
   }
+}
+
+.section {
+  position: relative;
+  margin: 0 30%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section_70 {
+  width: 70%;
+}
+
+.go_to_platform_cta {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 20px;
+  background: transparent;
+  border: 1px solid red;
+  outline: none;
+  color: red;
 }

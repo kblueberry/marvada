@@ -3,6 +3,21 @@ $secondary-color: #ff5722;
 $font-family: "JGS Font", sans-serif;
 $primary-text-color: rgba(236, 186, 185, 1);
 
+body {
+  background-color: #000;
+  margin: 0 30%;
+}
+
+.main {
+  color: $primary-text-color;
+  font-family: $font-family;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
 @font-face {
   font-family: "JGS Font";
   src: url("/jgs_Font.ttf") format("truetype");
@@ -32,4 +47,13 @@ $primary-text-color: rgba(236, 186, 185, 1);
       cursor: pointer;
     }
   }
+}
+// title styles
+// .section_title {
+//   font-size: 4em;
+//   font-weight: 400;
+// }
+
+.section_text_lg {
+  font-size: 1.5em;
 }
