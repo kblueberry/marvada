@@ -18,4 +18,17 @@
   }
 }
 
+.play_photo {
+  position: relative;
+}
 
+.play_photo__button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.photo:hover + .play_photo__button {
+  color: black !important;
+  background-color: aqua;
+}

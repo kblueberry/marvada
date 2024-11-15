@@ -1,0 +1,20 @@
+@import "./global";
+
+.play_photo {
+  position: relative;
+
+  .sibling:hover .play_photo__button {
+    color: black;
+  }
+}
+
+.play_photo__button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.photo__img:hover {
+  color: red;
+  filter: invert(1);
+}

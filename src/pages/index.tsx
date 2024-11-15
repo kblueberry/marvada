@@ -1,6 +1,7 @@
 import { NavBar } from "@/components/navbar";
 import { Paragraph } from "@/components/paragraph";
-import { Photo } from "@/components/photo";
+import { PlayPhoto } from "@/components/play-photo";
+import { Photo } from "@/components/ui-kit/photo";
 import { SectionText } from "@/pages/sectionText";
 import styles from "@/styles/Home.module.scss";
 import Head from "next/head";
@@ -55,12 +56,7 @@ export default function Home() {
             <p>{SectionText[1]}</p>
           </div>
 
-            <Photo
-              src="/img/VarnaGL-play.jpeg"
-              alt="Photo of the artist"
-              width={939}
-              height={507}
-            />
+          <PlayPhoto />
 
           <div>
             <p>{SectionText[2]}</p>
@@ -70,12 +66,12 @@ export default function Home() {
             <p>{SectionText[3]}</p>
           </div>
 
-         <Photo
-              src="/img/photo2.webp"
-              alt="Photo of the artist"
-              width={939}
-              height={1016}
-            />
+          <Photo
+            src="/img/photo2.webp"
+            alt="Photo of the artist"
+            width={939}
+            height={1016}
+          />
 
           <div>
             <p>{SectionText[4]}</p>

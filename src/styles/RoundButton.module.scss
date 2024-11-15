@@ -1,0 +1,43 @@
+@import "./global";
+.rnd_btn {
+  display: inline-flex;
+  padding: 1vw;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 77/74;
+  max-width: 77px;
+  min-width: 25px;
+  margin: 0;
+  position: relative;
+}
+
+.rnd_btn__content {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: clamp(12px, 1.2vw, 20px);
+  color: white;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+
+.rnd_btn::after,
+.rnd_btn::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  aspect-ratio: 1/1;
+  border: 1px solid #aa0f25;
+  border-radius: 50%;
+}
+.rnd_btn::before {
+  left: 0;
+  bottom: 0;
+}
+
+.rnd_btn::after {
+  top: 0;
+  right: 0;
+}
