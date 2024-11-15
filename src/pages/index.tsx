@@ -1,3 +1,4 @@
+import { SimpleSlider } from "@/components/carousel";
 import { NavBar } from "@/components/navbar";
 import { Paragraph } from "@/components/paragraph";
 import { PlayPhoto } from "@/components/play-photo";
@@ -104,6 +105,7 @@ export default function Home() {
             <p>Risus ullamcorper at eu dolor fermentum at. Id.</p>
           </div>
         </div>
+        <SimpleSlider />
       </main>
     </>
   );
