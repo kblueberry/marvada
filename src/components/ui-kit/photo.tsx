@@ -9,6 +9,8 @@ interface PhotoProps {
   width: number;
   height: number;
   effect?: Effect;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 }
 
 export const Photo = ({
@@ -17,6 +19,8 @@ export const Photo = ({
   width,
   height,
   effect = "invert",
+  onMouseEnter,
+  onMouseLeave,
 }: PhotoProps) => {
   const photoClass = `${styles.photo} ${styles[`photo--${effect}`]}`;
 
@@ -28,6 +32,8 @@ export const Photo = ({
         width={width}
         height={height}
         className={styles.photo__img}
+        onMouseEnter={onMouseEnter}
+        onMouseLeave={onMouseLeave}
       />
     </div>
   );
