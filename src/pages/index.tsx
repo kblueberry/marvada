@@ -1,7 +1,6 @@
-import { SimpleSlider } from "@/components/carousel";
 import { NavBar } from "@/components/navbar";
-import { Paragraph } from "@/components/paragraph";
 import { PlayPhoto } from "@/components/play-photo";
+import { Slider } from "@/components/slider";
 import { Photo } from "@/components/ui-kit/photo";
 import { SectionText } from "@/pages/sectionText";
 import styles from "@/styles/Home.module.scss";
@@ -105,7 +104,7 @@ export default function Home() {
             <p>Risus ullamcorper at eu dolor fermentum at. Id.</p>
           </div>
         </div>
-        <SimpleSlider />
+        <Slider />
       </main>
     </>
   );
