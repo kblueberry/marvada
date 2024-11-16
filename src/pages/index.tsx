@@ -1,5 +1,5 @@
 import { NavBar } from "@/components/navbar";
-import { PlayPhoto } from "@/components/play-photo";
+import { InteractivePhoto } from "@/components/interactive-photo";
 import { Slider } from "@/components/slider";
 import { Link } from "@/components/ui-kit/link";
 import { Photo } from "@/components/ui-kit/photo";
@@ -57,7 +57,12 @@ export default function Home() {
             <p>{SectionText[1]}</p>
           </div>
 
-          <PlayPhoto />
+          <InteractivePhoto
+            title="read"
+            src="/img/VarnaGL-play.jpeg"
+            width={939}
+            height={507}
+          />
 
           <div>
             <p>{SectionText[2]}</p>
@@ -124,7 +129,7 @@ export default function Home() {
                 height={522}
               ></Photo>
               <p>
-                Risus facilisi dui pellentesque scelerisque quam scelerisque.
+                Risus facilisi dui pellen tesque scelerisque quam scelerisque.
               </p>
             </div>
 
@@ -139,12 +144,13 @@ export default function Home() {
             </div>
 
             <div className={styles.related_content__news__item}>
-              <Photo
+              <InteractivePhoto
+                title="read"
                 src="/img/related_content_scaled_3.jpg"
-                alt="Related content"
+                buttonPosition="bottom_left"
                 width={522}
-                height={522}
-              ></Photo>
+                height={390}
+              />
               <p>
                 Cibus purus nunc nam id eget. Elit massa suspendisse elementum
                 purus nulla risus.

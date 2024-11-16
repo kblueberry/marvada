@@ -1,0 +1,19 @@
+@import "./global";
+
+.interactive_photo {
+  position: relative;
+}
+
+.interactive_photo__button--center {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.interactive_photo__button--bottom_left {
+  pointer-events: none;
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+}
