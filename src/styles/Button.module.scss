@@ -1,0 +1,30 @@
+@import "./global.scss";
+
+.button {
+  display: inline-flex;
+  @include actionNameStyles;
+  height: 54px;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button::before,
+.button::after {
+  content: "";
+  position: absolute;
+  height: 49px;
+  border-radius: 104px;
+  width: 95%;
+  border: 1px solid $wine-color;
+}
+
+.button::before {
+  right: 0;
+  top: 0;
+}
+
+.button::after {
+  bottom: 0;
+  left: 0;
+}

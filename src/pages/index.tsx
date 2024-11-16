@@ -8,6 +8,7 @@ import styles from "@/styles/Home.module.scss";
 import Head from "next/head";
 import Image from "next/image";
 import { Footer } from "@/components/footer";
+import { Button } from "@/components/ui-kit/button";
 
 export default function Home() {
   return (
@@ -35,9 +36,9 @@ export default function Home() {
         </section>
 
         <section className={styles.section_70}>
-          <button className={styles.go_to_platform_cta}>
-            Listen on Spotify
-          </button>
+          <Button title="Listen on Spotify" />
+          <Button title="Listen on Tidal" />
+          <Button title="LinkTree" />
           <div>
             <p>{SectionText[0]}</p>
           </div>

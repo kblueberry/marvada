@@ -9,6 +9,13 @@ $nav-link-size: 1em;
 $nav-link-line-height: 20px;
 $nav-link-font-weight: 400;
 
+@mixin actionNameStyles {
+  font-size: $nav-link-size;
+  font-weight: $nav-link-font-weight;
+  line-height: $nav-link-line-height;
+  color: $primary-text-color;
+}
+
 body {
   background-color: #000;
   margin: 0 30%;
@@ -44,12 +51,7 @@ body {
     justify-content: space-between;
 
     .menu {
-      font-size: $nav-link-size;
-      font-weight: $nav-link-font-weight;
-      line-height: $nav-link-line-height;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: $primary-text-color;
+      @include actionNameStyles;
       cursor: pointer;
     }
   }
@@ -66,9 +68,6 @@ body {
 
 .link-btn {
   border-bottom: 1px solid $wine-color;
-  color: $primary-text-color;
   text-decoration-color: $wine-color;
-  font-size: $nav-link-size;
-  font-weight: $nav-link-font-weight;
-  line-height: $nav-link-line-height;
+  @include actionNameStyles;
 }
