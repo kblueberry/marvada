@@ -21,7 +21,7 @@ export const InteractivePhoto = ({
   title,
   width,
   height,
-  buttonPosition,
+  buttonPosition = "center",
 }: InteractivePhotoProps) => {
   const [textColor, setTextColor] = useState("white");
   const onMouseEnter = () => setTextColor("black");
