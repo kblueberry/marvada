@@ -7,6 +7,7 @@ import { SectionText } from "@/pages/sectionText";
 import styles from "@/styles/Home.module.scss";
 import Head from "next/head";
 import Image from "next/image";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -158,6 +159,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <Footer />
       </main>
     </>
   );

@@ -1,0 +1,18 @@
+@import "./global.scss";
+
+.footer {
+  &__subtitle {
+    font-size: $nav-link-size;
+    font-weight: $nav-link-font-weight;
+    line-height: $nav-link-line-height;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-around;
+
+    & > * {
+      margin: 0 0.6em;
+    }
+  }
+}
