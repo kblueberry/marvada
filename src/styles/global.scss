@@ -5,6 +5,9 @@ $white-color: white;
 $black-color: black;
 $font-family: "JGS Font", sans-serif;
 $primary-text-color: rgba(236, 186, 185, 1);
+$nav-link-size: 1em;
+$nav-link-line-height: 20px;
+$nav-link-font-weight: 400;
 
 body {
   background-color: #000;
@@ -41,9 +44,9 @@ body {
     justify-content: space-between;
 
     .menu {
-      font-size: 1em;
-      font-weight: 400;
-      line-height: 20px;
+      font-size: $nav-link-size;
+      font-weight: $nav-link-font-weight;
+      line-height: $nav-link-line-height;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
       color: $primary-text-color;
@@ -59,4 +62,13 @@ body {
 
 .section_text_lg {
   font-size: 1.5em;
+}
+
+.link-btn {
+  border-bottom: 1px solid $wine-color;
+  color: $primary-text-color;
+  text-decoration-color: $wine-color;
+  font-size: $nav-link-size;
+  font-weight: $nav-link-font-weight;
+  line-height: $nav-link-line-height;
 }

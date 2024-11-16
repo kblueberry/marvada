@@ -1,6 +1,7 @@
 import { NavBar } from "@/components/navbar";
 import { PlayPhoto } from "@/components/play-photo";
 import { Slider } from "@/components/slider";
+import { Link } from "@/components/ui-kit/link";
 import { Photo } from "@/components/ui-kit/photo";
 import { SectionText } from "@/pages/sectionText";
 import styles from "@/styles/Home.module.scss";
@@ -104,7 +105,53 @@ export default function Home() {
             <p>Risus ullamcorper at eu dolor fermentum at. Id.</p>
           </div>
         </div>
+
         <Slider />
+
+        <div className={styles.related_content}>
+          <div className={styles.related_content__top}>
+            <h1 className={styles.related_content__top__title}>
+              related content
+            </h1>
+            <Link />
+          </div>
+          <div className={styles.related_content__news}>
+            <div className={styles.related_content__news__item}>
+              <Photo
+                src="/img/related_content_scaled_1.jpg"
+                alt="Related content"
+                width={522}
+                height={522}
+              ></Photo>
+              <p>
+                Risus facilisi dui pellentesque scelerisque quam scelerisque.
+              </p>
+            </div>
+
+            <div className={styles.related_content__news__item}>
+              <Photo
+                src="/img/related_content_scaled_2.jpg"
+                alt="Related content"
+                width={522}
+                height={522}
+              ></Photo>
+              <p>Diam platea metus sollicitudin faucibus</p>
+            </div>
+
+            <div className={styles.related_content__news__item}>
+              <Photo
+                src="/img/related_content_scaled_3.jpg"
+                alt="Related content"
+                width={522}
+                height={522}
+              ></Photo>
+              <p>
+                Cibus purus nunc nam id eget. Elit massa suspendisse elementum
+                purus nulla risus.
+              </p>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
