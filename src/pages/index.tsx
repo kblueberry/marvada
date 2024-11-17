@@ -6,35 +6,14 @@ import { Photo } from "@/components/ui-kit/photo";
 import styles from "@/styles/Home.module.scss";
 import { Footer } from "@/components/footer";
 import Artist from "@/components/artist";
+import MusicAnnouncements from "@/components/music-announcements";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <Hero />
       <Artist />
-
-      <div className={styles.music_announcements}>
-        <div className={styles.announcement}>
-          <Photo
-            src="/img/VarnaGL-announce-1.webp"
-            alt="Varna GL announce 1"
-            width={522}
-            height={694}
-          ></Photo>
-          <p>
-            Id feugiat suspendisse lacus facilisi eget nunc sit. Lectus vitae.
-          </p>
-        </div>
-        <div className={styles.announcement}>
-          <Photo
-            src="/img/VarnaGL-announce-2.webp"
-            alt="Varna GL announce 2"
-            width={661}
-            height={530}
-          ></Photo>
-          <p>Risus ullamcorper at eu dolor fermentum at. Id.</p>
-        </div>
-      </div>
+      <MusicAnnouncements />
 
       <Slider />
 

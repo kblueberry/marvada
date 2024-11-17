@@ -1,0 +1,14 @@
+@import "./global";
+
+.announcements {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.announcements_item {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 4em;
+}

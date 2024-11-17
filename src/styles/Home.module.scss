@@ -12,29 +12,6 @@
   margin: 0 auto;
 }
 
-.section {
-  position: relative;
-  margin: 0 30%;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.section_70 {
-  width: 70%;
-}
-
-.music_announcements {
-  display: flex;
-  justify-content: space-between;
-}
-
-.announcement {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 4em;
-}
-
 .related_content {
   width: 95%;
 
