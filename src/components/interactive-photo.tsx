@@ -1,5 +1,5 @@
 import styles from "@/styles/InteractivePhoto.module.scss";
-import { Photo } from "./ui-kit/photo";
+import Photo from "./ui-kit/photo";
 import { RoundButton } from "./ui-kit/round-button";
 import { useState } from "react";
 

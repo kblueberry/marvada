@@ -8,12 +8,7 @@
     height: auto;
   }
 
-  &.photo--invert .photo__img:hover {
-    filter: invert(1);
-  }
-
-  &.photo--highghlight .photo__img:hover {
-    //TODO correct style
+  .photo__img:hover {
     filter: invert(1);
   }
 }

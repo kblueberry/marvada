@@ -1,34 +1,24 @@
 import styles from "@/styles/Photo.module.scss";
 import Image from "next/image";
 
-type Effect = "invert" | "highlight";
-
 interface PhotoProps {
   src: string;
   alt: string;
   width: number;
   height: number;
-  effect?: Effect;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
 }
 
-export const Photo = ({
-  effect = "invert",
-  onMouseEnter,
-  onMouseLeave,
-  ...rest
-}: PhotoProps) => {
-  const photoClass = `${styles.photo} ${styles[`photo--${effect}`]}`;
+const Photo = ({ onMouseEnter, onMouseLeave, ...rest }: PhotoProps) => (
+  <div className={styles.photo}>
+    <Image
+      className={styles.photo__img}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      {...rest}
+    />
+  </div>
+);
 
-  return (
-    <div className={photoClass}>
-      <Image
-        className={styles.photo__img}
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
-        {...rest}
-      />
-    </div>
-  );
-};
+export default Photo;

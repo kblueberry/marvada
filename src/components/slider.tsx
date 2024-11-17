@@ -1,4 +1,4 @@
-import { Photo } from "./ui-kit/photo";
+import Photo from "./ui-kit/photo";
 import { Carousel } from "nuka-carousel";
 import styles from "@/styles/Slider.module.scss";
 

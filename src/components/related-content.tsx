@@ -1,5 +1,5 @@
 import styles from "@/styles/RelatedContent.module.scss";
-import { Photo } from "./ui-kit/photo";
+import Photo from "./ui-kit/photo";
 import { Link } from "@/components/ui-kit/link";
 import { InteractivePhoto } from "./interactive-photo";
 

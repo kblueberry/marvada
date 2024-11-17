@@ -1,5 +1,5 @@
 import styles from "@/styles/MusicAnnouncements.module.scss";
-import { Photo } from "./ui-kit/photo";
+import Photo from "./ui-kit/photo";
 
 const MusicAnnouncements = () => (
   <div className={styles.announcements}>

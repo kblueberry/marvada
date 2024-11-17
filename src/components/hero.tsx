@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { NavBar } from "@/components/navbar";
 import styles from "@/styles/Hero.module.scss";
-import { Photo } from "./ui-kit/photo";
+import Photo from "./ui-kit/photo";
 
 const Hero = () => {
   return (
