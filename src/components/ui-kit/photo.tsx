@@ -8,32 +8,28 @@ interface PhotoProps {
   alt: string;
   width: number;
   height: number;
+  layout?: string;
+  objectFit?: string;
   effect?: Effect;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
 }
 
 export const Photo = ({
-  src,
-  alt,
-  width,
-  height,
   effect = "invert",
   onMouseEnter,
   onMouseLeave,
+  ...rest
 }: PhotoProps) => {
   const photoClass = `${styles.photo} ${styles[`photo--${effect}`]}`;
 
   return (
     <div className={photoClass}>
       <Image
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
         className={styles.photo__img}
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
+        {...rest}
       />
     </div>
   );

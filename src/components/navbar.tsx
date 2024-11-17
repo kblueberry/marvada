@@ -1,10 +1,10 @@
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/NavBar.module.scss";
 import Image from "next/image";
 
 export const NavBar = () => {
   return (
-    <div className={styles.fixed_on_top}>
-      <div className={styles.top_navbar}>
+    <div className={styles.navbar}>
+      <div className={styles.navbar__wrap}>
         <Image
           src="/img/marvada-logo.svg"
           alt="logo"
@@ -12,7 +12,7 @@ export const NavBar = () => {
           width={194}
           height={36}
         ></Image>
-        <div className={styles.menu}>Menu</div>
+        <div className={styles.navbar__menu}>Menu</div>
       </div>
     </div>
   );

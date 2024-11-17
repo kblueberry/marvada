@@ -38,30 +38,6 @@ body {
   font-style: normal;
 }
 
-.fixed_on_top {
-  position: fixed;
-  top: 0;
-  width: 100%;
-
-  .top_navbar {
-    padding: 1em 2em;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: baseline;
-    justify-content: space-between;
-
-    .menu {
-      @include actionNameStyles;
-      cursor: pointer;
-    }
-  }
-}
-// title styles
-// .section_title {
-//   font-size: 4em;
-//   font-weight: 400;
-// }
-
 .section_text_lg {
   font-size: 1.5em;
 }

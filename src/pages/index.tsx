@@ -1,12 +1,12 @@
-import { NavBar } from "@/components/navbar";
 import { InteractivePhoto } from "@/components/interactive-photo";
+import Hero from "@/components/hero";
 import { Slider } from "@/components/slider";
 import { Link } from "@/components/ui-kit/link";
 import { Photo } from "@/components/ui-kit/photo";
 import { SectionText } from "@/pages/sectionText";
 import styles from "@/styles/Home.module.scss";
 import Head from "next/head";
-import Image from "next/image";
+
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui-kit/button";
 
@@ -19,22 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <main className={styles.main}>
-        <section className={styles.section}>
-          <NavBar />
-
-          <Image
-            src="/img/hero.webp"
-            alt="Hero image"
-            layout="responsive"
-            width={1920}
-            height={1080}
-            objectFit="cover"
-          />
-
-          {/* TODO position title */}
-          <h1 className={styles.section_title}>VARNA GL</h1>
-        </section>
-
+        <Hero />
         <section className={styles.section_70}>
           <Button title="Listen on Spotify" />
           <Button title="Listen on Tidal" />
