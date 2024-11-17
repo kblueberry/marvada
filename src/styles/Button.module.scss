@@ -1,12 +1,13 @@
 @import "./global.scss";
 
 .button {
-  display: inline-flex;
   @include actionNameStyles;
-  height: 54px;
+  display: inline-flex;
+  text-wrap: nowrap;
+  justify-content: center;
   position: relative;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .button::before,

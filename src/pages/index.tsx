@@ -5,13 +5,13 @@ import { Link } from "@/components/ui-kit/link";
 import { Photo } from "@/components/ui-kit/photo";
 import styles from "@/styles/Home.module.scss";
 import { Footer } from "@/components/footer";
-import AboutArtist from "@/components/about-artist";
+import Artist from "@/components/artist";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <Hero />
-      <AboutArtist />
+      <Artist />
 
       <div className={styles.music_announcements}>
         <div className={styles.announcement}>

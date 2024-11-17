@@ -1,5 +1,5 @@
 import PlatformLinks from "@/components/platform-links";
-import styles from "@/styles/Home.module.scss";
+import styles from "@/styles/Artist.module.scss";
 import { InteractivePhoto } from "./interactive-photo";
 import { Photo } from "./ui-kit/photo";
 import SpotifyPlayer from "./spotify-player";
@@ -12,8 +12,7 @@ const SectionText = ({ children }: { children: React.ReactNode }) => (
 );
 
 const AboutArtist = () => (
-  <section className={styles.section_70}>
-    <PlatformLinks />
+  <section className={styles.artist_about}>
     <SectionText>
       VARNA GL is a drum dancer and performance artist. Varnas art is deeply
       rooted in her ancestral heritage, with her distinct sound world being

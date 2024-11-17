@@ -1,32 +1,19 @@
 @import "./global";
 
-.main {
-  color: $primary-text-color;
-  font-family: $font-family;
+.artist {
+  display: flex;
+  max-width: 1200px;
+}
+
+.artist__platforms {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  text-align: center;
-  position: relative;
-  max-width: 1500px;
-  margin: 0 auto;
+  gap: 1rem;
+  margin: 0 48px 0 48px;
 }
 
-.section {
-  position: relative;
-  margin: 0 30%;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.section_70 {
-  width: 70%;
-}
-
-.music_announcements {
-  display: flex;
-  justify-content: space-between;
+.artist__about {
+  margin: 0 10px 0 10 px;
 }
 
 .announcement {
