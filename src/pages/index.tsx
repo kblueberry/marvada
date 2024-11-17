@@ -13,11 +13,6 @@ import { Button } from "@/components/ui-kit/button";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Varna GL</title>
-        <meta name="description" content="Varna GL personal page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
       <main className={styles.main}>
         <Hero />
         <section className={styles.section_70}>

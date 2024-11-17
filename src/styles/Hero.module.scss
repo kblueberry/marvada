@@ -1,3 +1,5 @@
+@import "./global.scss";
+
 .hero {
   position: relative;
   margin: 0 30%;
@@ -11,8 +13,18 @@
     padding: 0;
     margin: 0;
     position: absolute;
-    bottom: -4rem;
-    font-size: 8rem;
+    font-size: 3rem;
+    bottom: -1.5rem;
     font-weight: 400;
+
+    @media (min-width: $breakpoint-md) {
+      font-size: 5rem;
+      bottom: -2.5rem;
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      font-size: 8rem;
+      bottom: -4rem;
+    }
   }
 }
