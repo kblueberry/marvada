@@ -12,7 +12,7 @@ const SectionText = ({ children }: { children: React.ReactNode }) => (
 );
 
 const AboutArtist = () => (
-  <section className={styles.artist_about}>
+  <section className={styles.artist__about}>
     <SectionText>
       VARNA GL is a drum dancer and performance artist. Varnas art is deeply
       rooted in her ancestral heritage, with her distinct sound world being

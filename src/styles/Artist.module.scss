@@ -13,37 +13,7 @@
 }
 
 .artist__about {
-  margin: 0 10px 0 10 px;
-}
-
-.announcement {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 4em;
-}
-
-.related_content {
-  width: 95%;
-
-  &__top {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &__news {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-
-    &__item {
-      flex-basis: 30%;
-
-      @media (max-width: 768px) {
-        flex-basis: 100%;
-        flex-grow: 1;
-      }
-    }
-  }
+  margin: 0 10px 0 10px;
+  text-align: left;
+  font-size: 24px;
 }
