@@ -2,12 +2,11 @@
 
 .button {
   @include actionNameStyles;
-  display: inline-flex;
   text-wrap: nowrap;
-  justify-content: center;
   position: relative;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 0 1.8em;
+  line-height: 1.4em;
+  justify-content: center;
 }
 
 .button::before,
