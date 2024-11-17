@@ -16,7 +16,7 @@ interface InteractivePhotoProps {
   buttonPosition?: ButtonPosition;
 }
 
-export const InteractivePhoto = ({
+const InteractivePhoto = ({
   src,
   title,
   width,
@@ -43,3 +43,5 @@ export const InteractivePhoto = ({
     </div>
   );
 };
+
+export default InteractivePhoto;

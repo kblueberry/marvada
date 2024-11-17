@@ -1,7 +1,7 @@
 import styles from "@/styles/RelatedContent.module.scss";
 import Photo from "./ui-kit/photo";
-import { Link } from "@/components/ui-kit/link";
-import { InteractivePhoto } from "./interactive-photo";
+import Link from "@/components/ui-kit/link";
+import InteractivePhoto from "./interactive-photo";
 
 const RelatedContent = () => (
   <div className={styles.related_content}>

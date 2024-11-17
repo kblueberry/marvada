@@ -1,5 +1,5 @@
 import styles from "@/styles/Artist.module.scss";
-import { InteractivePhoto } from "./interactive-photo";
+import InteractivePhoto from "./interactive-photo";
 import Photo from "./ui-kit/photo";
 import SpotifyPlayer from "./spotify-player";
 import React from "react";
