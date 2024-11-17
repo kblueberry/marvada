@@ -5,10 +5,13 @@
   justify-content: space-between;
   font-size: 1.25em;
   text-align: left;
-}
+  @media (max-width: $breakpoint-md) {
+    flex-wrap: wrap;
+  }
 
-.announcements_item {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 4em;
+  &_item {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 4em;
+  }
 }

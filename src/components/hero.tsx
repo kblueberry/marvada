@@ -8,14 +8,7 @@ const Hero = () => {
     <section className={styles.hero}>
       <NavBar />
 
-      <Photo
-        src="/img/hero.webp"
-        alt="Hero image"
-        layout="responsive"
-        width={1920}
-        height={1080}
-        objectFit="cover"
-      />
+      <Photo src="/img/hero.webp" alt="Hero image" width={1920} height={1080} />
 
       <h1 className={styles.hero__title}>VARNA GL</h1>
     </section>

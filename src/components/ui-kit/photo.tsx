@@ -8,8 +8,6 @@ interface PhotoProps {
   alt: string;
   width: number;
   height: number;
-  layout?: string;
-  objectFit?: string;
   effect?: Effect;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
