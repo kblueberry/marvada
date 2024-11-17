@@ -1,6 +1,8 @@
 @import "./global.scss";
 
 .footer {
+  align-self: center;
+
   &__subtitle {
     font-size: $nav-link-size;
     font-weight: $nav-link-font-weight;
