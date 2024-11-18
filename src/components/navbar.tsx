@@ -1,11 +1,14 @@
 import styles from "../styles/NavBar.module.scss";
-import Logo from "./ui-kit/logo";
+import Menu from "./menu";
+import Logo from "./logo";
 
-export const NavBar = () => (
+const NavBar = () => (
   <div className={styles.navbar}>
     <div className={styles.navbar__wrap}>
       <Logo />
-      <div className={styles.navbar__menu}>Menu</div>
+      <Menu />
     </div>
   </div>
 );
+
+export default NavBar;

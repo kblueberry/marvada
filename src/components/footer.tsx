@@ -1,5 +1,5 @@
 import styles from "@/styles/Footer.module.scss";
-import Logo from "./ui-kit/logo";
+import Logo from "./logo";
 import { RoundButton } from "./ui-kit/round-button";
 
 export const Footer = () => {

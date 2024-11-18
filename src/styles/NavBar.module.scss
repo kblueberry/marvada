@@ -6,16 +6,34 @@
   width: 100%;
   z-index: 100;
 
-  .navbar__wrap {
+  &__wrap {
     padding: 1em 2em;
     display: flex;
     flex-flow: row wrap;
     align-items: baseline;
     justify-content: space-between;
+  }
 
-    .navbar__menu {
-      @include actionNameStyles;
-      cursor: pointer;
+  &__logo {
+    flex: 3;
+    text-align: left;
+  }
+
+  &__menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: right;
+    flex: 2;
+    justify-content: space-between;
+
+    @media (min-width: $breakpoint-md) {
+      flex-direction: row;
     }
+  }
+
+  &__menu_item {
+    @include actionNameStyles;
+    cursor: pointer;
   }
 }
