@@ -45,9 +45,8 @@ const AboutArtist = () => (
       researcher and counselor. Varna is the artistic and managing director of
       Qilaat, a cultural organization committed to promoting, preserving, and
       developing the traditional heritage of drum dancing, towards new stages
-      and minds. Greenlandic drum dancing was in 2021 inscribed into
-      UNESCO&apos;ss representative list of the intangible cultural heritage of
-      humanity.
+      and minds. Greenlandic drum dancing was in 2021 inscribed into UNESCO's
+      representative list of the intangible cultural heritage of humanity.
     </SectionText>
 
     <SectionText>
