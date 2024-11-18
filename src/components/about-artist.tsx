@@ -32,7 +32,7 @@ const AboutArtist = () => (
     </SectionText>
 
     <InteractivePhoto
-      title="read"
+      title="play"
       src="/img/VarnaGL-play.jpeg"
       width={939}
       height={507}

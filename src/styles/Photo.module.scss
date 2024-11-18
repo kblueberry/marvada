@@ -6,6 +6,7 @@
   .photo__img {
     max-width: 100%;
     height: auto;
+    transition: filter 300ms ease, transform 300ms ease;
   }
 
   .photo__img:hover {
