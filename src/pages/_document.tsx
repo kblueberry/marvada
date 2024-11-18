@@ -8,7 +8,7 @@ export default function Document() {
         <meta name="description" content="Varna GL personal page" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <body style={{ padding: 0, margin: 0 }}>
+      <body className="body">
         <Main />
         <NextScript />
       </body>

@@ -1,0 +1,7 @@
+@import "./global.scss";
+
+.link-btn {
+  border-bottom: 1px solid $wine-color;
+  text-decoration-color: $wine-color;
+  @include actionNameStyles;
+}

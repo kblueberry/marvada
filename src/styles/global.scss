@@ -16,11 +16,6 @@ $nav-link-font-weight: 400;
   color: $primary-text-color;
 }
 
-body {
-  background-color: #000;
-  margin: 0 30%;
-}
-
 @font-face {
   font-family: "JGS Font";
   src: url("/jgs_Font.ttf") format("truetype");
@@ -31,12 +26,8 @@ body {
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 
-.section_text_lg {
-  font-size: 1.5em;
-}
-
-.link-btn {
-  border-bottom: 1px solid $wine-color;
-  text-decoration-color: $wine-color;
-  @include actionNameStyles;
+.body {
+  background-color: $black-color;
+  padding: 0;
+  margin: 0;
 }
