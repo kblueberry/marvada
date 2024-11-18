@@ -1,7 +1,6 @@
-import Image from "next/image";
 import styles from "@/styles/Footer.module.scss";
-import { RoundButton } from "./ui-kit/round-button";
 import Logo from "./ui-kit/logo";
+import { RoundButton } from "./ui-kit/round-button";
 
 export const Footer = () => {
   return (
