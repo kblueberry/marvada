@@ -1,13 +1,30 @@
 @use "variables" as *;
 
 html {
-  // font-size: 62.5%;
+  font-size: 62.5%; // 10px
+
+  @media (min-width: $breakpoint-md) {
+    font-size: 75%; // 12px
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 100%;
+  }
 }
 
 body {
   background-color: $black-color;
   padding: 0;
   margin: 0;
+  min-width: 325px;
+
+  @media (min-width: $breakpoint-md) {
+    background-color: red;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    background-color: blue;
+  }
 }
 
 @font-face {

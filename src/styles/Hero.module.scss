@@ -13,18 +13,8 @@
     margin: 0;
     position: absolute;
     mix-blend-mode: difference;
-    font-size: 3rem;
-    bottom: -1.5rem;
+    font-size: 8rem;
+    bottom: -4rem;
     font-weight: 400;
-
-    @media (min-width: $breakpoint-md) {
-      font-size: 5rem;
-      bottom: -2.5rem;
-    }
-
-    @media (min-width: $breakpoint-lg) {
-      font-size: 8rem;
-      bottom: -4rem;
-    }
   }
 }
