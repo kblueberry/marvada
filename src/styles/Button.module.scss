@@ -14,9 +14,9 @@
 .button::after {
   content: "";
   position: absolute;
-  height: 49px;
   border-radius: 104px;
-  width: 95%;
+  width: 97%;
+  height: 90%;
   border: 1px solid $wine-color;
 }
 

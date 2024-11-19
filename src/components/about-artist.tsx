@@ -4,15 +4,17 @@ import Photo from "./ui-kit/photo";
 import SpotifyPlayer from "./spotify-player";
 import React from "react";
 
-const SectionText = ({ children }: { children: React.ReactNode }) => (
-  <div>
+type SectionTextProps = React.ComponentProps<"div">;
+
+const SectionText = ({ children, ...rest }: SectionTextProps) => (
+  <div {...rest}>
     <p>{children}</p>
   </div>
 );
 
 const AboutArtist = () => (
   <section className={styles.artist__about}>
-    <SectionText>
+    <SectionText className={styles.artist__intro}>
       VARNA GL is a drum dancer and performance artist. Varnas art is deeply
       rooted in her ancestral heritage, with her distinct sound world being
       inspired by the traditional East Greenlandic drum dance passed down to her

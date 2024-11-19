@@ -19,17 +19,15 @@ body {
   min-width: 325px;
 
   @media (min-width: $breakpoint-md) {
-    background-color: red;
+    background-color: blue;
   }
 
   @media (min-width: $breakpoint-lg) {
-    background-color: blue;
+    background-color: $black-color;
   }
 }
 
 @font-face {
   font-family: "JGS Font";
   src: url("/jgs_Font.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
