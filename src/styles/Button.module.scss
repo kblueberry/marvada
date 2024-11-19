@@ -1,12 +1,13 @@
-@import "./global.scss";
+@use "variables" as *;
+@use "mixins";
 
 .button {
-  @include actionNameStyles;
   text-wrap: nowrap;
   position: relative;
   padding: 0 1.8em;
   line-height: 1.4em;
   justify-content: center;
+  @include mixins.actionNameStyles;
 }
 
 .button::before,

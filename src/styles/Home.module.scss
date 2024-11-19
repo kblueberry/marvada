@@ -1,4 +1,4 @@
-@import "./global";
+@use "variables" as *;
 
 .main {
   color: $primary-text-color;

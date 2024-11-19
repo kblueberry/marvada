@@ -1,4 +1,5 @@
-@import "./global";
+@use "variables" as *;
+@use "mixins";
 
 .navbar {
   position: absolute;
@@ -33,7 +34,7 @@
   }
 
   &__menu_item {
-    @include actionNameStyles;
     cursor: pointer;
+    @include mixins.actionNameStyles;
   }
 }

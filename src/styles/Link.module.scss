@@ -1,7 +1,8 @@
-@import "./global.scss";
+@use "variables" as *;
+@use "mixins";
 
 .link-btn {
   border-bottom: 1px solid $wine-color;
   text-decoration-color: $wine-color;
-  @include actionNameStyles;
+  @include mixins.actionNameStyles;
 }

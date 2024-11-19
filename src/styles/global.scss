@@ -1,19 +1,13 @@
-$primary-color: #4caf50;
-$secondary-color: #ff5722;
-$wine-color: #aa0f25;
-$white-color: white;
-$black-color: black;
-$font-family: "JGS Font", sans-serif;
-$primary-text-color: rgba(236, 186, 185, 1);
-$nav-link-size: 1em;
-$nav-link-line-height: 20px;
-$nav-link-font-weight: 400;
+@use "variables" as *;
 
-@mixin actionNameStyles {
-  font-size: $nav-link-size;
-  font-weight: $nav-link-font-weight;
-  line-height: $nav-link-line-height;
-  color: $primary-text-color;
+html {
+  // font-size: 62.5%;
+}
+
+body {
+  background-color: $black-color;
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
@@ -21,13 +15,4 @@ $nav-link-font-weight: 400;
   src: url("/jgs_Font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
-
-$breakpoint-md: 768px;
-$breakpoint-lg: 992px;
-
-.body {
-  background-color: $black-color;
-  padding: 0;
-  margin: 0;
 }
