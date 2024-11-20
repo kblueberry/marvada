@@ -18,10 +18,6 @@ body {
   margin: 0;
   min-width: 325px;
 
-  @media (min-width: $breakpoint-md) {
-    background-color: blue;
-  }
-
   @media (min-width: $breakpoint-lg) {
     background-color: $black-color;
   }
