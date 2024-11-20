@@ -45,7 +45,7 @@ export const Slider = () => (
           height={739}
         />
       </div>
-      <div className={styles["slider__item--last"]}>
+      <div className={styles.slider__item}>
         <Photo
           src="/img/VARNA_SHOOT_6_scaled.jpg"
           alt="Varna shoot picture"

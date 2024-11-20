@@ -10,13 +10,5 @@
     @media screen and (min-width: $breakpoint-md) {
       min-width: 50%;
     }
-
-    &--last {
-      min-width: 95%;
-
-      @media screen and (min-width: $breakpoint-md) {
-        min-width: 50%;
-      }
-    }
   }
 }
