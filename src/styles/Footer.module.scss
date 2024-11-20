@@ -2,6 +2,7 @@
 
 .footer {
   align-self: center;
+  margin-bottom: 2rem;
 
   &__subtitle {
     font-size: $nav-link-size;
@@ -11,9 +12,5 @@
   &__links {
     display: flex;
     justify-content: space-around;
-
-    & > * {
-      margin: 0 0.6em;
-    }
   }
 }
